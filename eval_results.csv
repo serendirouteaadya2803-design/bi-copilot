@@ -1,0 +1,22 @@
+question,expected_intent,got_intent,intent_ok,figure_ok,driver_ok,premise_ok,audit_ok,scope_ok
+Why did sales decline in the South region?,diagnose,diagnose,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+Why did profit fall in Bengaluru?,diagnose,diagnose,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+Why did sales drop in Chennai?,diagnose,diagnose,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+Why did Electronics sales decline in the South region?,diagnose,diagnose,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+Why did online sales fall in the South region?,diagnose,diagnose,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+Why did sales rise in the North region?,diagnose,diagnose,TRUE,TRUE,,TRUE,TRUE,TRUE
+Why did sales decline in the West region?,diagnose,diagnose,TRUE,TRUE,,TRUE,TRUE,TRUE
+Why did sales decline in the South region year on year?,diagnose,diagnose,TRUE,TRUE,,,TRUE,TRUE
+Which region declined the most?,top,top,TRUE,TRUE,,,TRUE,TRUE
+Which region has the highest sales?,top,top,TRUE,TRUE,,,TRUE,TRUE
+Top categories in the North region,top,top,TRUE,TRUE,,,TRUE,TRUE
+Compare regions by sales,compare,compare,TRUE,TRUE,,,TRUE,TRUE
+Show the monthly sales trend for the West region,trend,trend,TRUE,TRUE,,,TRUE,TRUE
+Monthly profit trend in the East region,trend,trend,TRUE,TRUE,,,TRUE,TRUE
+How did the North region perform?,summary,summary,TRUE,TRUE,,,TRUE,TRUE
+How did online sales perform in the South?,summary,summary,TRUE,TRUE,,,TRUE,TRUE
+What is net price per unit?,definition,definition,TRUE,TRUE,,,TRUE,TRUE
+What does QoQ mean?,definition,definition,TRUE,TRUE,,,TRUE,TRUE
+Forecast sales for next quarter,unsupported,unsupported,TRUE,,,,TRUE,TRUE
+What will profit be next year?,unsupported,unsupported,TRUE,,,,TRUE,TRUE
+Who is the CEO of the company?,unsupported,unsupported,TRUE,,,,TRUE,TRUE
